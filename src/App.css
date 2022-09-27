@@ -48,6 +48,13 @@ a:active { text-decoration: none; }
  float: right;
 }
 
+
+
+.icon:hover{
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
 .app-body{
   background-color: #303d58;
   color: white;
@@ -66,8 +73,51 @@ a:active { text-decoration: none; }
 
 .about{
   min-height: 60vh;
+  padding-top: 120px;
 }
 
 .contact{
   min-height: 60vh;
 }
+
+.projects-showcase{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  grid-row-gap: 30px;
+  
+  /* grid-template-columns: 200px 200px 200px; */
+}
+
+
+.projects-showcase img{
+  height: 200px;
+  width: 400px;
+}
+
+.projects-showcase img:hover{
+  opacity: .5;
+}
+
+
+.project-card{
+  width: 400px;
+  box-shadow: 0px 1px 2px 0px #c5c4c4, 0 3px 10px 0 #c5c4c4;
+  }
+
+  .project-card a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20%;
+    background-color:darkslategrey;
+    
+  }
+
+  .project-card a:hover{
+    background-color: darkcyan;
+  }
+
+  
+
