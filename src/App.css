@@ -15,14 +15,30 @@
   color: white;
 }
 
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+
 
 .header-list{
   display: flex;
+  color: white;
 }
 
 .header-name{
   padding-right: 35px;
 }
+
+
 
 
 
@@ -36,4 +52,22 @@
   background-color: #303d58;
   color: white;
 
+}
+
+
+.list-link{
+  color: white;
+}
+
+
+.projects{
+  min-height: 60vh;
+}
+
+.about{
+  min-height: 60vh;
+}
+
+.contact{
+  min-height: 60vh;
 }

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { SocialIcon } from 'react-social-icons';
 import ReactDOM from 'react-dom';
+import uno from './project-images/uno.gif'
 // ReactDOM.render(<SocialIcon url="https://twitter.com/jaketrent" />);
 
 function App() {
@@ -9,17 +10,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="header-name">
-        <a>Keegan McRoberts</a>
+        <a className='list-link' href="/">Keegan McRoberts</a>
         </div>
         <div className="header-list">
           <ul>
-            <a>Projects</a>
+            <a className='list-link' href='#projects'>Projects</a>
           </ul>
           <ul>
-            <a>About</a>
+            <a className='list-link' href='#about'>About</a>
           </ul>
           <ul>
-            <a>Contact</a>
+            <a className='list-link'  href='#contact'>Contact</a>
           </ul>
           </div>
         <div className="header-icons">
@@ -30,9 +31,17 @@ function App() {
           </ul>
         </div>
       </header>
-      <br></br>
       <body className="app-body">
-        <h2>Contents</h2>
+        <div className="projects">
+          <h2 id='projects'>Projects</h2>
+        </div>
+        <div className='about'>
+          <h2 id='about'>About me</h2>
+        </div>
+        <div className="contact">
+          <h2 id='contact'>Contact</h2>
+        </div>
+        
       </body>
     </div>
   );
