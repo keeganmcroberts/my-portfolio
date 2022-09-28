@@ -43,28 +43,31 @@ function App() {
         </div>
       </header>
       <body className="app-body">
-      <h2 id='about'>About me</h2>
+      <h2 id='about'> About Me</h2>
         <div className='about'>
           <div className="about-div">
-            About me
+            <h3>I am a full stack software engineer who recently graduated coding bootcamp with extensive training in Javascript, ReactJS, and Ruby on Rails. After having completed my undergraduate studies at Colorado State University with a BS in Public Health and Exercise science, I worked shortly in the healthcare field as a Registered Behavior Technician. With a recent career transition, I decided to take my creative outlook, collaboration skills, and adaptable mindset into the tech field. </h3>
           </div>
-          <div className="technologies-div">
-          
+          <div className="skills-div">
+            <h3 className="skills-h3">Skills</h3>
+            <div className="technologies-div">
             
-          <img src={html}></img>
-          <img src={css}></img>
-          <img src={github}></img>
-          <img src={heroku}></img>
-          <img src={javascript}></img>
-          <img src={postgres}></img>
-          <img src={react}></img>
-          <img src={ruby}></img>
-          <img src={rails}></img>
+            
+              <img src={html}></img>
+              <img src={css}></img>
+              <img src={javascript}></img>
+              <img src={react}></img>
+              <img src={ruby}></img>
+              <img src={rails}></img>
+              <img src={github}></img>
+              <img src={heroku}></img>
+              <img src={postgres}></img>
+            </div>
           </div>
           
         </div>
         <div className="projects">
-          <h2 id='projects'>Projects</h2>
+          <h2 id='projects' className="skills-h3">Projects</h2>
           <div className="projects-showcase">
             <div className="project-card">
               <img src={concerts}></img>
@@ -98,7 +101,7 @@ function App() {
           </div>
         </div>
         <div className="contact">
-          <h2 id='contact'>Contact</h2>
+          <h2 id='contact' className="skills-h3">Contact</h2>
         </div>
         
       </body>

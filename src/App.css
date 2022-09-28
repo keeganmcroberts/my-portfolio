@@ -13,6 +13,7 @@
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+ 
 }
 
 a:link { text-decoration: none; }
@@ -32,10 +33,21 @@ a:active { text-decoration: none; }
 .header-list{
   display: flex;
   color: white;
+  margin-left: 50px;
 }
 
 .header-name{
+  font-weight: 600;
   padding-right: 35px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border:5px solid black;
+  padding: .5rem .5rem;
+  /* min-height: 3em; */
+  /* resize: both; */
+  background: #303d58;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
 }
 
 
@@ -46,6 +58,7 @@ a:active { text-decoration: none; }
 .header-icons{
  flex: auto;
  float: right;
+ margin-right: 40px;
 }
 
 
@@ -58,18 +71,20 @@ a:active { text-decoration: none; }
 .app-body{
   background-color: #303d58;
   color: white;
-  padding-top: 75px;
+  padding-top: 50px;
 
 }
 
 
 .list-link{
   color: white;
+  font-size: smaller;
 }
 
 
 .projects{
   min-height: 60vh;
+  padding-top: 100px;
 }
 
 
@@ -79,8 +94,10 @@ a:active { text-decoration: none; }
 }
 
 .projects-showcase{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   grid-row-gap: 30px;
   
@@ -128,28 +145,42 @@ a:active { text-decoration: none; }
 
 .about{
   min-height: 60vh;
-  padding-top: 120px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
+ 
 }
 
+
   .about-div{
-    min-height: 80vh;
-    min-width: 70vh;
-    
+    color: rgb(194, 189, 189);
+    text-align:justify;
+    inline-size: 400px;
+   
   }
 
   .technologies-div{
-    min-height: 80vh;
-    min-width: 70vh;
     display: grid;
     gap: 1px;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    /* padding-top: 50px;
+    font-size: 24px;
+    border-top: 5px solid black;;
+    padding: 2rem 1rem;
+    min-height: 3em;
+    resize: both;
+    background: #303d58;
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1; */
+    
   }
 
   .technologies-div img{
     height: 100px;
     width: 80px;
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -163,4 +194,50 @@ a:active { text-decoration: none; }
   }
 
   
+  #projects{
+    text-align: left;
+    margin-left: 15px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
 
+  #about{
+    text-align: left;
+    margin-left: 220px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #contact{
+    text-align: left;
+    margin-left: 15px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+
+
+  .contact{
+    padding-top: 100px;
+  }
+
+  .skills-div{
+    text-align: center;
+    
+  }
+
+  .skills-h3{
+    font-size: 24px;
+    border-bottom: 3px solid black;;
+    /* min-height: 3em; */
+    resize: both;
+    background: #303d58;
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+  }
