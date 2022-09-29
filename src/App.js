@@ -19,6 +19,29 @@ import rails from './technology-images/338194cb78bf1635e0776b20ef846038.png'
 function App() {
   return (
     <div className="App">
+      <div class="night">
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+    </div>
+      <div className="fixedHeader">
       <header className="App-header">
         <div className="header-name">
         <a className='header-link' href="/">Keegan McRoberts</a>
@@ -42,6 +65,7 @@ function App() {
           </ul>
         </div>
       </header>
+      </div>
       <body className="app-body">
       
         <div className='about'>
