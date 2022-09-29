@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="header-name">
-        <a className='list-link' href="/">Keegan McRoberts</a>
+        <a className='header-link' href="/">Keegan McRoberts</a>
         </div>
         <div className="header-list">
           <ul>
@@ -43,25 +43,26 @@ function App() {
         </div>
       </header>
       <body className="app-body">
-      <h2 id='about'> About Me</h2>
+      
         <div className='about'>
           <div className="about-div">
-            <h3>I am a full stack software engineer who recently graduated coding bootcamp with extensive training in Javascript, ReactJS, and Ruby on Rails. After having completed my undergraduate studies at Colorado State University with a BS in Public Health and Exercise science, I worked shortly in the healthcare field as a Registered Behavior Technician. With a recent career transition, I decided to take my creative outlook, collaboration skills, and adaptable mindset into the tech field. </h3>
+            <h2 id='about'> About Me</h2>
+            <h3 className="about-me-portfolio">Welcome to my portfolio! My name's Keegan and i'm a full stack software engineer who recently graduated coding bootcamp with extensive training in Javascript, ReactJS, and Ruby on Rails. After having completed my undergraduate studies at Colorado State University with a BS in Public Health and Exercise science, I worked shortly in the healthcare field as a Registered Behavior Technician. With a recent career transition, I decided to take my creative outlook, collaboration skills, and adaptable mindset into the tech field. </h3>
           </div>
           <div className="skills-div">
             <h3 className="skills-h3">Skills</h3>
             <div className="technologies-div">
             
             
-              <img src={html}></img>
-              <img src={css}></img>
-              <img src={javascript}></img>
-              <img src={react}></img>
-              <img src={ruby}></img>
-              <img src={rails}></img>
-              <img src={github}></img>
-              <img src={heroku}></img>
-              <img src={postgres}></img>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
             </div>
           </div>
           
@@ -102,6 +103,17 @@ function App() {
         </div>
         <div className="contact">
           <h2 id='contact' className="skills-h3">Contact</h2>
+            <div className="contact-info">
+              <h4>EMAIL</h4>
+              <h3>keegan.mcroberts@gmail.com</h3>
+              <div className="header-icons">
+                <ul className="header-icons">
+                  <SocialIcon className='icon' url="https://www.linkedin.com/in/keegan-mcroberts/"/>
+                  <SocialIcon className='icon' url="https://github.com/keeganmcroberts"/>
+                  <SocialIcon className='icon' url="https://dev.to/keeganmcroberts"/>
+                </ul>
+              </div>
+            </div>
         </div>
         
       </body>
