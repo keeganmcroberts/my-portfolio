@@ -18,6 +18,7 @@ import rails from './technology-images/338194cb78bf1635e0776b20ef846038.png'
 
 function App() {
   return (
+    
     <div className="App">
       <div class="night">
         <div class="shooting_star"></div>
@@ -40,7 +41,7 @@ function App() {
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
-    </div>
+      </div>
       <div className="fixedHeader">
       <header className="App-header">
         <div className="header-name">
@@ -56,7 +57,10 @@ function App() {
           <ul>
             <a className='list-link'  href='#contact'>Contact</a>
           </ul>
-          </div>
+          <ul>
+            <a className='list-link'  href='file:///Users/keegan/Downloads/Keegan_McRoberts_Resume%20(1).pdf'>Resume</a>
+          </ul>
+        </div>
         <div className="header-icons">
           <ul className="header-icons">
             <SocialIcon className='icon' url="https://www.linkedin.com/in/keegan-mcroberts/"/>
@@ -125,6 +129,10 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="experience">
+        <h2 id='experience' className="skills-h3">Experience</h2>
+        <div className="experience-div"></div>
+        </div>
         <div className="contact">
           <h2 id='contact' className="skills-h3">Contact</h2>
             <div className="contact-info">
@@ -142,6 +150,7 @@ function App() {
         
       </body>
     </div>
+    
   );
 }
 
