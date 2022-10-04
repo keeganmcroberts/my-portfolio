@@ -5,18 +5,22 @@ import ReactDOM from 'react-dom';
 import uno from './project-images/giphy-um.gif'
 import concerts from './project-images/new-capstone-png.png'
 import gameReview from './project-images/game.png'
-import html from './technology-images/1200px-HTML5_logo_and_wordmark.svg.png'
-import css from './technology-images/CSS3_logo_and_wordmark.svg.png'
-import github from './technology-images/GitHub-logo.png'
-import heroku from './technology-images/heroku-logo-B774A78667-seeklogo.com.png'
-import javascript from './technology-images/javascript_logo.png'
-import postgres from './technology-images/postgresql.webp'
-import react from './technology-images/react-logo.png'
-import ruby from './technology-images/Ruby_on_Rails-logo.png'
-import rails from './technology-images/338194cb78bf1635e0776b20ef846038.png'
+import { useState } from 'react';
+import Oop from './components/oop';
+import CustomerService from './components/customerService';
+import Ux from './components/ux';
+import RestAPI from './components/restAPI';
+
 // ReactDOM.render(<SocialIcon url="https://twitter.com/jaketrent" />);
 
 function App() {
+
+  const [experienceOOP, setExperienceOOP] = useState(true)
+  const [experienceREST, setExperienceREST] = useState(false)
+  const [experienceUX, setExperienceUX] = useState(false)
+  const [experienceService, setExperienceService] = useState(false)
+
+  
   return (
     
     <div className="App">
@@ -55,10 +59,10 @@ function App() {
             <a className='list-link' href='#projects'>Projects</a>
           </ul>
           <ul>
-            <a className='list-link'  href='#contact'>Contact</a>
+            <a className='list-link' href='#experience'>Experience</a>
           </ul>
           <ul>
-            <a className='list-link'  href='file:///Users/keegan/Downloads/Keegan_McRoberts_Resume%20(1).pdf'>Resume</a>
+            <a className='list-link'  href='#contact'>Contact</a>
           </ul>
         </div>
         <div className="header-icons">
@@ -79,7 +83,7 @@ function App() {
           </div>
           <div className="skills-div">
             <h3 className="skills-h3">Skills</h3>
-            <div className="technologies-div">
+            <div className="about-technologies">
             
             
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
@@ -131,7 +135,12 @@ function App() {
         </div>
         <div className="experience">
         <h2 id='experience' className="skills-h3">Experience</h2>
-        <div className="experience-div"></div>
+        <div className="experience-div">
+          { experienceOOP ? <Oop setExperienceREST={setExperienceREST} setExperienceOOP={setExperienceOOP}/> : null}
+          { experienceREST ? <RestAPI setExperienceREST={setExperienceREST} setExperienceOOP={setExperienceOOP} setExperienceUX={setExperienceUX}/> : null}
+          {  experienceUX ? <Ux setExperienceUX={setExperienceUX} setExperienceREST={setExperienceREST} setExperienceService={setExperienceService}/> : null}
+          { experienceService ? <CustomerService setExperienceService={setExperienceService} setExperienceUX={setExperienceUX}/> : null}
+        </div>
         </div>
         <div className="contact">
           <h2 id='contact' className="skills-h3">Contact</h2>
