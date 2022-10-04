@@ -10,7 +10,8 @@ function CustomerService({setExperienceService, setExperienceUX}){
         <div className="experience-arrows">
         <div className="experience-card">
             
-            <h4>Customer Service</h4>
+            
+            <img className="customer-service-image" src="https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/customer-service-examples-feature-image2.png"></img>
             
         </div>
             <div className="arrows">

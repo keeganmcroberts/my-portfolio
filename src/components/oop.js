@@ -14,7 +14,7 @@ function Oop({setExperienceREST, setExperienceOOP}){
             
         <div className="experience-card">
             
-            <h4>Oop</h4>
+            <img className="oop-image" src="https://miro.medium.com/max/600/0*7zMicw-FfThCbN35.png"></img>
             
         </div>
             <div className="arrows">

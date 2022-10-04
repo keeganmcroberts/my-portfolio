@@ -14,7 +14,7 @@ function Ux({setExperienceUX, setExperienceREST, setExperienceService}){
         <div className="experience-arrows">
         <div className="experience-card">
             
-            <h4>UX</h4>
+            <img className="ux-image" src='https://d1hdtc0tbqeghx.cloudfront.net/wp-content/uploads/2019/07/23135307/Banner-Image.jpg'></img>
             
         </div>
             <div className="arrows">
