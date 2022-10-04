@@ -14,7 +14,7 @@ body {
 .App {
   height: 100%;
   text-align: center;
-  background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%);
+  background: radial-gradient(ellipse at bottom, #658fc0 0%, #050712 100%);
   -webkit-scroll-behavior: smooth;
   
 }
@@ -277,7 +277,7 @@ body {
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
- 
+  /* position: fixed; */
 }
 
 
@@ -514,7 +514,7 @@ a:active { text-decoration: none; }
 
 .contact-info{
   text-align: left;
-  margin-left: 25px;
+  margin-left:20px;
   color: rgb(251, 220, 220);
   border-top: thick double #adadad;
 }
@@ -566,9 +566,9 @@ a:active { text-decoration: none; }
   border: thick double #adadad;
   align-items: center;
   text-align: center;
-  margin-left: 35%;
+  margin-left: 34.5%;
   
-  height: 400px;
+  height: 410px;
   width: 400px;
  
 }
@@ -577,6 +577,7 @@ a:active { text-decoration: none; }
   display: flex;
   justify-content: center;
   font-size:60px;
+  cursor: pointer;
   
 }
 
@@ -602,4 +603,8 @@ a:active { text-decoration: none; }
   height: 200px;
   width: 400px;
   margin-top: 0px;
+}
+
+.experience-text{
+  font-size: medium;
 }

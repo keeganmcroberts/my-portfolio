@@ -15,7 +15,8 @@ function Ux({setExperienceUX, setExperienceREST, setExperienceService}){
         <div className="experience-card">
             
             <img className="ux-image" src='https://d1hdtc0tbqeghx.cloudfront.net/wp-content/uploads/2019/07/23135307/Banner-Image.jpg'></img>
-            
+            <h5>UX/UI Design</h5>
+            <h6 className="experience-text">Intuitive solutions, elegant designs, and seemless user interfaces.</h6>
         </div>
             <div className="arrows">
                 <div onClick={leftArrow} className="left-arrow">⇦</div>
