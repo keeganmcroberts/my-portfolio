@@ -483,12 +483,18 @@ a:active { text-decoration: none; }
   background-color: rgb(251, 222, 185);
 }
 
+
+
 .reference-link1{
-  margin-right: 15px;
+  margin-right: 50px;
 }
 
 .reference-link2{
-  margin-left: 15px;
+  margin-left: 50px;
+}
+
+.buttons{
+  padding-bottom: 10px;
 }
 
 

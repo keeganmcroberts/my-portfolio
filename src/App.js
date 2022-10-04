@@ -109,8 +109,10 @@ function App() {
               </h4>
               <h5 className="software">Stack</h5>
               <h5 className="softwares">Javascript  React  Rails  BCrpypt </h5>
-              <a className="reference-link1"  href="https://github.com/keeganmcroberts/CapstoneProject">Code</a>
-              <a className="reference-link2" href="https://www.loom.com/share/961db6b743d848a7b56ca38cb68a90f6">Demo</a>
+              <div className="buttons">
+                <a className="reference-link1"  href="https://github.com/keeganmcroberts/CapstoneProject">Code</a>
+                <a className="reference-link2" href="https://www.loom.com/share/961db6b743d848a7b56ca38cb68a90f6">Demo</a>
+              </div>
             </div>
             <div className="project-card">
               <img src={uno}></img>
@@ -119,8 +121,10 @@ function App() {
               <h5 className="software">Stack</h5>
               <h5 className="softwares">Javascript  React  Rails REST </h5>
               <br></br>
-              <a className="reference-link1" href="https://github.com/keeganmcroberts/Rails-React-Uno">Code</a>
-              <a className="reference-link2" href="https://www.loom.com/share/4b7d52ff4ef54457bd38cca5b83f35fa">Demo</a>
+              <div className="buttons">
+                <a className="reference-link1" href="https://github.com/keeganmcroberts/Rails-React-Uno">Code</a>
+                <a className="reference-link2" href="https://www.loom.com/share/4b7d52ff4ef54457bd38cca5b83f35fa">Demo</a>
+              </div>
             </div>
             <div className="project-card">
               <img src={gameReview}></img>
@@ -128,8 +132,10 @@ function App() {
               <h4 className="project-description">An immersive game app where users can see their favorite games, game trailers, game scores, and game reviews. </h4>
               <h5 className="software">Stack</h5>
               <h5 className="softwares">Javascript  React REST CRUD JSON</h5>
-              <a className="reference-link1" href="https://github.com/keeganmcroberts/Immersive-Game-Review">Code</a>
-              <a className="reference-link2" href="https://www.loom.com/share/1a7ef50e56dc48a5bf02847f8a39920c">Demo</a>
+              <div className="buttons">
+                <a className="reference-link1" href="https://github.com/keeganmcroberts/Immersive-Game-Review">Code</a>
+                <a className="reference-link2" href="https://www.loom.com/share/1a7ef50e56dc48a5bf02847f8a39920c">Demo</a>
+              </div>
             </div>
           </div>
         </div>
