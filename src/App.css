@@ -464,6 +464,12 @@ a:active { text-decoration: none; }
   box-shadow: 3px 3px 10px 0px #c5c4c4, 0 3px 10px 0 #c5c4c4;
 }
 
+.project-description{
+  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .project-card a {
   color: white;
   text-decoration: none;
@@ -474,7 +480,7 @@ a:active { text-decoration: none; }
 }
 
 .project-card a:hover{
-  background-color: darkcyan;
+  background-color: rgb(251, 222, 185);
 }
 
 .reference-link1{
@@ -549,18 +555,12 @@ a:active { text-decoration: none; }
 
 .experience{
   font-size: 35px;
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: -webkit-linear-gradient(#eee, rgb(233, 186, 186)); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   padding-top: 100px;
 }
 
-/* .experience-div{
-  display: flex;
-  align-items: center;
-  text-align: center; 
-  margin-left: 50%;
-} */
 
 .experience-card{
   border: thick double #adadad;
@@ -607,4 +607,11 @@ a:active { text-decoration: none; }
 
 .experience-text{
   font-size: medium;
+  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.experience-header{
+  color: rgb(248, 244, 244);
 }

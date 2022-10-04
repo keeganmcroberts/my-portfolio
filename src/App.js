@@ -105,7 +105,7 @@ function App() {
             <div className="project-card">
               <img src={concerts}></img>
               <h2>Concert Legend</h2>
-              <h4>A concert tracking website which allows easy access for finding upcoming shows by Date, City, Venue, or Band. 
+              <h4 className="project-description">A concert tracking website which allows easy access for finding upcoming shows by Date, City, Venue, or Band. 
               </h4>
               <h5 className="software">Stack</h5>
               <h5 className="softwares">Javascript  React  Rails  BCrpypt </h5>
@@ -115,7 +115,7 @@ function App() {
             <div className="project-card">
               <img src={uno}></img>
               <h2>UM</h2>
-              <h4>A new take on everybody’s favorite family-friendly card game, Uno.</h4>
+              <h4 className="project-description">A new take on everybody’s favorite family-friendly card game, Uno.</h4>
               <h5 className="software">Stack</h5>
               <h5 className="softwares">Javascript  React  Rails REST </h5>
               <br></br>
@@ -125,7 +125,7 @@ function App() {
             <div className="project-card">
               <img src={gameReview}></img>
               <h2>Immersive Game Review</h2>
-              <h4>An immersive game app where users can see their favorite games, game trailers, game scores, and game reviews. </h4>
+              <h4 className="project-description">An immersive game app where users can see their favorite games, game trailers, game scores, and game reviews. </h4>
               <h5 className="software">Stack</h5>
               <h5 className="softwares">Javascript  React REST CRUD JSON</h5>
               <a className="reference-link1" href="https://github.com/keeganmcroberts/Immersive-Game-Review">Code</a>
