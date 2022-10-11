@@ -1,7 +1,7 @@
 function Technologies(){
     return(
         <div className="skills-div">
-        <h3 className="skills-h3">Technologies</h3>
+        <h4 className="skills-h3">Technologies</h4>
         <div className="about-technologies">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />

@@ -14,7 +14,7 @@ function Bio(){
             </div>
         </div>
         <div className="interests">
-            <h4 className="passion-header">My Passions:</h4>
+            <h4 className="passion-header">My Interests:</h4>
             <div className="passions">
             <p>Hiking</p>
             <p>Traveling</p>

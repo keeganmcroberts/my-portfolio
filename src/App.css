@@ -278,7 +278,10 @@ body {
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
-  /* position: fixed; */
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(16, 14, 29, 0.343);
+  width: 100%;
 }
 
 
@@ -315,7 +318,6 @@ a:active { text-decoration: none; }
   padding: .5rem .5rem;
   /* min-height: 3em; */
   resize: both;
-  
 }
 
 .header-icons{
@@ -334,11 +336,18 @@ a:active { text-decoration: none; }
 
 
 .list-link{
-  color: white;
+  
   font-size: smaller;
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.list-link {
+  /* display: block; */
+  /* position: relative; */
+  top: -250px;
+  /* visibility: hidden; */
 }
 
 .header-link{
@@ -347,24 +356,27 @@ a:active { text-decoration: none; }
 }
 
 #about{
-  
+  /* position:relative; 
+  position:absolute; top:-200px; */
+  scroll-padding-top: 20px; 
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 0px;
   margin-bottom: 15px;
   font-size: 50px;
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
 
 .about{
+  scroll-padding-top: 20px; 
   min-height: 60vh;
   padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
-  
+  margin-top: 100px;
 }
 
 
@@ -384,7 +396,7 @@ a:active { text-decoration: none; }
 }
 
 .passion-header{
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -393,7 +405,7 @@ a:active { text-decoration: none; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  color: rgb(194, 189, 189);
+  color: rgb(204, 201, 201);
 }
 
 .interests{
@@ -433,7 +445,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
   margin-left: 15px;
   margin-right: 800px;
   font-size: 50px;
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -483,7 +495,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
 }
 
 .projectName{
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -538,7 +550,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
   margin-right: 800px;
   margin-bottom: -5px;
   font-size: 50px;
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -574,7 +586,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
   margin-left: 15px;
   margin-right: 800px;
   font-size: 50px;
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -646,7 +658,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
 }
 
 .experience-header{
-  background: -webkit-linear-gradient(rgb(243, 221, 221), rgb(244, 180, 180));
+  background: -webkit-linear-gradient(#eee, rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -657,7 +669,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
 }
 
 .skills-h3{
-  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0px;

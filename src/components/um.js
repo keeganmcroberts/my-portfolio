@@ -10,8 +10,8 @@ function Um(){
               <h5 className="softwares">Javascript  React  Rails REST </h5>
               <br></br>
               <div className="buttons">
-                <a className="reference-link1" href="https://github.com/keeganmcroberts/Rails-React-Uno">Code</a>
-                <a className="reference-link2" href="https://www.loom.com/share/4b7d52ff4ef54457bd38cca5b83f35fa">Demo</a>
+                <a className="reference-link1" href="https://github.com/keeganmcroberts/Rails-React-Uno" target="_blank">Code</a>
+                <a className="reference-link2" href="https://www.loom.com/share/4b7d52ff4ef54457bd38cca5b83f35fa" target="_blank">Demo</a>
               </div>
         </div>
     )

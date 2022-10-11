@@ -8,9 +8,10 @@ function GameReview(){
               <h4 className="project-description">An immersive game app where users can see their favorite games, game trailers, game scores, and game reviews. </h4>
               <h5 className="software">Stack:</h5>
               <h5 className="softwares">Javascript  React REST CRUD JSON</h5>
+              <br></br>
               <div className="buttons">
-                <a className="reference-link1" href="https://github.com/keeganmcroberts/Immersive-Game-Review">Code</a>
-                <a className="reference-link2" href="https://www.loom.com/share/1a7ef50e56dc48a5bf02847f8a39920c">Demo</a>
+                <a className="reference-link1" href="https://github.com/keeganmcroberts/Immersive-Game-Review" target="_blank">Code</a>
+                <a className="reference-link2" href="https://www.loom.com/share/1a7ef50e56dc48a5bf02847f8a39920c" target="_blank">Demo</a>
               </div>
         </div>
     )
