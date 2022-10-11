@@ -8,8 +8,6 @@ import Projects from './components/projects';
 import Experience from './components/experience';
 import Contact from './components/contact';
 
-// ReactDOM.render(<SocialIcon url="https://twitter.com/jaketrent" />);
-
 function App() {
 
   return (
