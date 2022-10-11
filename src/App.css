@@ -351,10 +351,12 @@ a:active { text-decoration: none; }
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 0px;
+  margin-bottom: 15px;
   font-size: 50px;
   background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .about{
@@ -372,11 +374,55 @@ a:active { text-decoration: none; }
   word-spacing: 3px;
   inline-size: 500px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 100px;
 }
 
 .about-me-bio{
+  margin-top: 0px;
   color: rgb(204, 201, 201);
   line-height: 40px;
+}
+
+.passion-header{
+  background: -webkit-linear-gradient(#eee, rgb(233, 186, 186));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.passions{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  color: rgb(194, 189, 189);
+}
+
+.interests{
+  text-align: center;
+  margin-left: 0px;
+}
+
+.bio-images img{
+margin-top: 60px;
+max-height: 400px;
+border-radius: 20%;
+margin-bottom: 15px;
+box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
+}
+
+.bio-images {
+  position: relative;
+  float: left;
+}
+
+.bio-images .hoverImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.bio-images:hover .hoverImage {
+  display: block;
 }
 
 
