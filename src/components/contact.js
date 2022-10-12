@@ -9,9 +9,9 @@ function Contact(){
               <h3>keegan.mcroberts@gmail.com</h3>
               <div className="header-icons">
                 <ul className="header-icons">
-                  <SocialIcon className='icon' url="https://www.linkedin.com/in/keegan-mcroberts/"/>
-                  <SocialIcon className='icon' url="https://github.com/keeganmcroberts"/>
-                  <SocialIcon className='icon' url="https://dev.to/keeganmcroberts"/>
+                  <SocialIcon className='icon' url="https://www.linkedin.com/in/keegan-mcroberts/" target="_blank"/>
+                  <SocialIcon className='icon' url="https://github.com/keeganmcroberts" target="_blank"/>
+                  <SocialIcon className='icon' url="https://dev.to/keeganmcroberts" target="_blank"/>
                 </ul>
               </div>
             </div>

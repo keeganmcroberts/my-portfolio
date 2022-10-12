@@ -515,6 +515,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
 
 .project-card a:hover{
   background-color: rgb(251, 222, 185);
+  color: #050712;
 }
 
 
