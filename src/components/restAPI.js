@@ -16,7 +16,7 @@ function RestAPI({setExperienceOOP, setExperienceUX, setExperienceREST}){
         <div className="card">
         <div className="experience-card">
             
-            <img className="rest-image" src="https://www.mindinventory.com/blog/wp-content/uploads/2021/09/rest-api-model-1.png"></img>
+            <img className="rest-image" src="https://nordicapis.com/wp-content/uploads/Web-Service-What-is-REST-API-And-How-Does-it-Work.png"></img>
             <h5 className="experience-header">REST APIs</h5>
             <h6 className="experience-text">Experience in representational state transfer and information exchange with HTTP functionality.</h6>
         </div>
