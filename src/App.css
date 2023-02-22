@@ -21,7 +21,7 @@ body {
 }
 
 .app-body{
-  /* background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%); */
+  background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%);
   color: white;
   padding-top: 50px;
 
@@ -348,6 +348,7 @@ a:active { text-decoration: none; }
   /* position: relative; */
   top: -250px;
   /* visibility: hidden; */
+  padding: 10px;
 }
 
 .header-link{
