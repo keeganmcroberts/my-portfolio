@@ -1,5 +1,5 @@
 import { SocialIcon } from 'react-social-icons';
-import resume from '../project-images/My_Resume.pdf'
+import resume from '../project-images/updated_resume.pdf'
 
 function Header(){
     return(

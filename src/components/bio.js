@@ -5,6 +5,7 @@ import juno from '../project-images/juno.jpeg'
 function Bio(){
     return(
         <div className="bio">
+            <h6>(hover me!)</h6>
         <div class="bio-images">
             <div class="mainImage">
                  <img src={teton} alt="Default Image"></img>
