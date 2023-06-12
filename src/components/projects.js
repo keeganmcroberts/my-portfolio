@@ -3,6 +3,7 @@ import Um from './um';
 import ProjectLegend from './projectLegend'
 import GameReview from './gameReview';
 import Park from './nationalPark';
+import Todo from './todo';
 
 
 function Projects(){
@@ -10,6 +11,7 @@ function Projects(){
         <div className="projects">
           <h2 id='projects' className="skills-h3">Projects</h2>
           <div className="projects-showcase">
+            <Todo/>
             <Park/>
             <ProjectLegend/>
             <Um/>
