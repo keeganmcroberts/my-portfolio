@@ -656,6 +656,14 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
   margin-top: 0px;
 }
 
+.right-arrow:hover{
+  color: rgb(232, 176, 85)
+}
+
+.left-arrow:hover{
+  color: rgb(232, 176, 85)
+}
+
 .experience-text{
   font-size: medium;
   color: rgb(204, 201, 201);
@@ -686,7 +694,7 @@ box-shadow: 3px 3px 10px 0px #deb75e, 0 3px 10px 0 #473e3e;
 .about-technologies{
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   /* grid-row-gap: 50px;
   grid-column-gap: 50px; */
 }
